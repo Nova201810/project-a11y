@@ -1,0 +1,13 @@
+.languages__link {
+  padding: 13px 18px;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 4px;
+  background: #C7D2E9;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.languages__link:first-child {
+  margin-left: 0;
+}

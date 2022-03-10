@@ -1,0 +1,13 @@
+@import './Events/styles.css';
+@import './Museum/styles.css';
+@import './Streams/styles.css';
+@import './Excursions/styles.css';
+@import './Playbill/styles.css';
+
+.page > * {
+  margin-top: 120px;
+}
+
+.page > *:first-child {
+  margin-top: 0;
+}

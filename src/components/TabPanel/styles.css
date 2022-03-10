@@ -1,0 +1,26 @@
+.tab-panel {
+  width: 312px;
+}
+
+.tab-panel__heading {
+  margin-top: 24px;
+}
+
+.tab-panel__date {
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.tab-panel__description {
+  margin-top: 8px;
+}
+
+.tab-panel__link {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.tab-panel--short .tab-panel__link {
+  margin-top: 16px;
+}

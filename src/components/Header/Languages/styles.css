@@ -1,0 +1,5 @@
+@import './LanguageLink/styles.css';
+
+.languages {
+  display: flex;
+}

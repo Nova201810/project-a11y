@@ -1,0 +1,15 @@
+.excursions__content {
+  margin-top: 40px;
+  max-width: 700px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.excursions__content_link-wrapper {
+  margin-top: 4px;
+}
+
+.excursions__content_link {
+  text-decoration: none;
+  color: #5D16D5;
+}

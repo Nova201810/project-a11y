@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -8px -20px;
+}
+
+.menu__item {
+  margin: 8px 20px;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+}

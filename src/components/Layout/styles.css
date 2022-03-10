@@ -1,0 +1,49 @@
+.container {
+  max-width: 1032px;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container > * {
+  box-sizing: border-box;
+}
+
+.container .visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container button:hover {
+  cursor: pointer;
+}
+
+.container button:focus,
+.container input:focus,
+.container a:focus {
+  outline: 3px solid #5D16D5;
+  outline-offset: 2px;
+}
+
+.container__content {
+  margin-top: 36px;
+}
+
+.container h2 {
+  margin: 0;
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: 400;
+}
+
+.container h3 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.container .colorless-link {
+  color: #000000;
+}

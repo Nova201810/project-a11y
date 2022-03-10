@@ -1,0 +1,11 @@
+@import './ModalContent/styles.css';
+
+.login {
+  display: flex;
+}
+
+.login__button {
+  border: none;
+  background: transparent;
+  padding: 0;
+}

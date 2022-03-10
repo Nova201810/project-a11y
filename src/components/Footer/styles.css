@@ -1,0 +1,118 @@
+.footer {
+  background: #F1F1F1;
+  margin-top: 160px;
+  padding-top: 72px;
+  padding-bottom: 94px;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__content_useful-links {
+  margin-right: 16px;
+}
+
+.internal-links__link {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.internal-links__link:first-child {
+  margin-top: 0;
+}
+
+.internal-links__link:hover {
+  text-decoration: underline;
+}
+
+.external-links {
+  margin-top: 40px;
+}
+
+.external-links__heading {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.external-links__icons {
+  display: flex;
+  margin-top: 16px;
+}
+
+.external-links__icons > * {
+  margin-left: 24px;
+}
+
+.external-links__icons > *:first-child {
+  margin-left: 0;
+}
+
+.subscription-form__heading {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.subscription-form__actions {
+  margin-top: 36px;
+  display: flex;
+}
+
+.subscription-form__actions_email {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+  padding: 12px 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.subscription-form__actions_email::placeholder {
+  color: #000000;
+  font-weight: 400;
+}
+
+.subscription-form__actions_submit {
+  margin-left: 20px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #5D16D5;
+}
+
+.subscription-form__actions_agreement {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.subscription-form__actions_agreement--checkbox {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  appearance: none;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.subscription-form__actions_agreement--checkbox:checked {
+  background-image: url('/footer/check.png');
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+}
+
+.subscription-form__actions_agreement--text {
+  margin-left: 8px;
+}

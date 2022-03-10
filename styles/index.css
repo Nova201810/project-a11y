@@ -1,0 +1,13 @@
+@import '../src/components/Header/styles.css';
+@import '../src/components/Modal/styles.css';
+@import '../src/components/Layout/styles.css';
+@import '../src/components/Tabs/styles.css';
+@import '../src/components/TabPanel/styles.css';
+@import '../src/components/Footer/styles.css';
+@import '../src/components/Gallery/styles.css';
+
+@import '../src/pages/Index/styles.css';
+
+body {
+  margin: 0;
+}
