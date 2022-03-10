@@ -11,9 +11,9 @@ export default function Streams() {
           height="610"
           src="https://www.youtube.com/embed/5qRR-5H1XgU"
           title="Ай Вейвей: движение к общечеловеческому"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
           loading="lazy"
         >
           <p>Ваш браузер устарел и не поддерживает воспроизведение iframe</p>
