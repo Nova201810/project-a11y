@@ -119,9 +119,11 @@ export default function Gallery({ images , ...props }) {
             aria-roledescription="slide"
             className={cn('gallery__content_image', { 'gallery__content_image--active': currentIndex === index })}
           >
-            <a href="#" className="gallery__content_image--link">
-              Билеты онлайн
-            </a>
+            {currentIndex === index && (
+              <a href="#" className="gallery__content_image--link">
+                Билеты онлайн
+              </a>
+            )}
             <NextImage
               quality={100}
               src={src}
