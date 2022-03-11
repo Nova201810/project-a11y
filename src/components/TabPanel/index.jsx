@@ -2,8 +2,8 @@ import NextImage from 'next/image';
 import cn from 'clsx';
 
 export default function TabPanel({ id, imgSrc, imgName, heading, date, description, link, linkName }) {
-  const headingId = `${id}-heading`;
-  const linkId = `${id}-link`;
+  const headingId = `${id}_heading`;
+  const linkId = `${id}_link`;
   return (
     <div className={cn('tab-panel', { 'tab-panel--short': !date })}>
       <NextImage

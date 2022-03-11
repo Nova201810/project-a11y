@@ -42,11 +42,14 @@
 
 .gallery__content_image {
   position: relative;
-  display: none;
+  display: flex;
+  width: 0;
+  height: 0;
 }
 
 .gallery__content_image--active {
-  display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .gallery__content_image--link {

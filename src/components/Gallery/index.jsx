@@ -108,27 +108,30 @@ export default function Gallery({ images , ...props }) {
           <ArrowRight />
         </button>
       </div>
-      {images.map(({ src, alt }, index) => (
-        <div
-          key={src + currentIndex}
-          aria-live={ariaLive}
-          aria-label={`${alt}. ${index + 1} из ${images.length}`}
-          role="article"
-          aria-roledescription="slide"
-          className={cn('gallery__content_image', { 'gallery__content_image--active': currentIndex === index })}
-        >
-          <a href="#" className="gallery__content_image--link">
-            Билеты онлайн
-          </a>
-          <NextImage
-            quality={100}
-            src={src}
-            alt=""
-            width={1032}
-            height={600}
-          />
-        </div>
-      ))}
+      <div className="gallery__content">
+        {images.map(({ src, alt }, index) => (
+          <div
+            key={src + currentIndex}
+            aria-hidden={currentIndex !== index}
+            aria-live={ariaLive}
+            aria-label={`${alt}. ${index + 1} из ${images.length}`}
+            role="article"
+            aria-roledescription="slide"
+            className={cn('gallery__content_image', { 'gallery__content_image--active': currentIndex === index })}
+          >
+            <a href="#" className="gallery__content_image--link">
+              Билеты онлайн
+            </a>
+            <NextImage
+              quality={100}
+              src={src}
+              alt=""
+              width={1032}
+              height={600}
+            />
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
