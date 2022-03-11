@@ -1,4 +1,4 @@
-import PlayBill from './PlayBill';
+import PlayBill from './Playbill';
 import Museum from './Museum';
 import Events from './Events';
 import Streams from './Streams';
